@@ -1,5 +1,4 @@
 function calculateGrade(percentage) {
-	while (percentage>=0 && percentage<=100) {
   if (percentage >= 90){
 	  return "A";
   }else if(percentage>=80 && percentage<=89){
@@ -11,7 +10,7 @@ function calculateGrade(percentage) {
   }else{ 
 	  return "F";
   }
-	}
+	
 }
 const percentage = parseInt(prompt("Enter Percentage."));
 alert(calculateGrade(percentage));
